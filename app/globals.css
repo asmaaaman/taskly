@@ -2,7 +2,7 @@
 
 
 
-:root {
+@theme {
   --color-primary: #003D9B;
   --color-primary-gradient: linear-gradient(90deg, #003D9B 0%, #00A3FF 100%);
   --color-primary-container: #0052CC;

@@ -1,9 +1,9 @@
-import AuthHeader from "./components/Headers/AuthHeader";
+import AuthLayouts from "./Layouts/AuthLayouts";
 
 export default function Home() {
   return (
     <>
-      <AuthHeader />
+      <AuthLayouts />
     </>
   );
 }
