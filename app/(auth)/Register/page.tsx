@@ -1,4 +1,4 @@
-import AuthLayouts from "@/app/Layouts/AuthLayouts";
+import AuthLayouts from "../../Layouts/AuthLayouts";
 import AuthCard from "../components/AuthCard";
 import AuthHeader from "../components/AuthHeader";
 import SignUpForm from "../components/SignUpForm";

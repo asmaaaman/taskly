@@ -3,8 +3,8 @@
 import { useState } from "react";
 import { FieldError, UseFormRegisterReturn } from "react-hook-form";
 
-import EyeIcon from "@/assets/icons/eye.svg";
-import EyeOffIcon from "@/assets/icons/eye-off.svg";
+import EyeIcon from "../../../assets/icons/eye.svg";
+import EyeOffIcon from "../../../assets/icons/eye-off.svg";
 
 type PasswordInputProps = {
   label: string;
