@@ -2,7 +2,7 @@
 
 import Image, { StaticImageData } from "next/image";
 import { useState } from "react";
-import Logo from "../../../../public/logo.svg";
+import Logo from "../../../assets/logo.svg";
 import ProjectsIcon from "../../../assets/icons/folder.svg";
 import statisticsIcon from "../../../assets/icons/statistics.svg";
 import EpicsIcons from "../../../assets/icons/epics.svg";
