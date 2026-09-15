@@ -1,3 +1,4 @@
+import HeaderNavBar from "../DashboardLayoutComponents/HeaderNavBar/HeaderNavBar";
 import SideBar from "../DashboardLayoutComponents/SideBar/SideBar";
 
 export default function DashboardLayout({
@@ -10,11 +11,11 @@ export default function DashboardLayout({
       <SideBar />
 
       <div className="flex min-w-0 flex-1 flex-col ">
-        <header className="h-16 bg-gray-950 shrink-0 text-amber-100">
-          TopBar
+        <header>
+          <HeaderNavBar />
         </header>
 
-        <main className="bg-amber-100 flex-1">frfr</main>
+        <main className="flex-1">{children}</main>
       </div>
     </div>
   );
