@@ -1,9 +1,5 @@
-import AuthLayouts from "./Layouts/AuthLayouts";
+import { redirect } from "next/dist/client/components/navigation";
 
 export default function Home() {
-  return (
-    <>
-      <AuthLayouts />
-    </>
-  );
+  redirect("/Layouts/dashboard");
 }

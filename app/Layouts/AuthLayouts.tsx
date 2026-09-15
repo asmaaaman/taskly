@@ -1,5 +1,5 @@
 import React from "react";
-import AuthNavBar from "../components/NavBar/AuthNav";
+import AuthNavBar from "../sharedComponents/NavBar/AuthNav";
 
 type AuthLayoutsProps = {
   children: React.ReactNode;
