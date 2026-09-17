@@ -11,6 +11,8 @@
   --color-surface-low: #f1f3ff;
   --color-white-bg: #F9F9FF;
   --font-inter: "Inter", sans-serif;
+   --shadow-card: 0 4px 6px rgba(0, 0, 0, 0.05);
+
 }
 
 

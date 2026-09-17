@@ -1,6 +1,6 @@
 function Header() {
   return (
-    <header className="flex h-16 w-full items-center justify-end border-b border-[#e9e9ef] bg-white px-7">
+    <header className="flex h-16 w-full items-center justify-end border-b border-[#e9e9ef]  px-7">
       <div className="flex items-center gap-2.5">
         <div className="flex flex-col items-end leading-tight">
           <span className="text-[9px] font-bold text-[#172033]">
